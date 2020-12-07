@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+/*
+Title: Suburban Memories
+Author: Jake Gibson
+
+*/
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Nav Bar*/
+
+.container {
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    right: 15px;
+    margin-left: 20px;
+    display:flex
+}
+
+nav {
+    float: right;
+    position: absolute;
+    right: 150px;
+    vertical-align: top;
+    display: flex;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 200px;
+    padding-top: 50px;
+    position: relative;
+}
+
+nav a::before{
+    display:block;
+    bottom:0;
+    left:0;
+    position: absolute;
+}
+
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.carticon{
+    width: 55px; 
+}
+
+
+/*Page Content*/
+.motd{
+    top: 500px;
+    width: 40%;
+    padding-left: 221px;
+    padding-top: 300px;
+}
+
+.motd button, .chartbutton{
+    text-align: center;
+    display:inline-block;
+    margin-top: 15px;
+    padding: 14px 40px;
+}
+bgimage{
+    flex-shrink: 0;
+    height: 615px;
+    margin-top: 474px;
+    width: 735px;
+}
+
+/*Sizing Chart Ad*/
+
+.chartad{
+    margin-left: 1000px;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+.chartad button{
+    text-align: center;
+    display:inline-block;
+    margin-top: 15px;
+    position: absolute;
+    top: 450px;
+    margin-left: 205px;
+}
+/*Contact Us*/
+.form{
+    width: 40%;
+    margin-left:575px;
+    margin-right: auto;
+    display: block;
+    top: 60px;
+    position: absolute;
+    top: 200px
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+/*submit*/
+
+input[type=submit] {
+    margin-left: 350px;
+}
+
+
+
+/*Product Cards*/
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left:25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.col-4 img {
+    margin-top: 175px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Sizing Chart */
+
+
+.sizeChart{
+    position: absolute;
+    left:300px;
+    top: 250px;
+}
+/*Video and Audio Elements*/
+
+.video{
+    position: absolute;
+    left: 900px;
+    top: 200px;  
+}
+
+.audio{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
